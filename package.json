@@ -15,7 +15,7 @@
     "gulp": "^3.9.0"
   },
   "scripts": {
-    "start": "gulp demo"
+    "start": "gulp demo",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
