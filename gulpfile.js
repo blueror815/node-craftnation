@@ -66,7 +66,7 @@ gulp.task('connect', function () {
 });
     
 gulp.task('open', function () {
-    return gulp.src('demo/index.html').pipe(open({ uri: 'https://polar-temple-8841.herokuapp.com:3000/demo/index.html'}));
+    return gulp.src('demo/index.html').pipe(open({ uri: 'http://polar-temple-8841.herokuapp.com:3000/demo/index.html'}));
 });
 
 gulp.task('watch', function() {
